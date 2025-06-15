@@ -7,19 +7,19 @@ namespace Task1.Models
     {
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "Họ tên là bắt buộc")]
+        [Required(ErrorMessage = "Fullname is required")]
         public string FullName { get; set; }
 
-        [Required(ErrorMessage = "Email là bắt buộc")]
+        [Required(ErrorMessage = "Email is requiredc")]
         [EmailAddress]
         public string Email { get; set; }
 
-        [Required(ErrorMessage = "Ngày sinh là bắt buộc")]
+        [Required(ErrorMessage = "Date of birth is required")]
         [DataType(DataType.Date)]
         public DateTime DateOfBirth { get; set; }
 
         [Phone]
-        [Display(Name = "Số điện thoại")]
+        [Display(Name = "Phone number")]
         public string PhoneNumber { get; set; }
     }
 }
