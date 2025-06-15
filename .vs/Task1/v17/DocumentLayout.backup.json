@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Workspace\\SPLUS-SOFTWARE\\Task1-13_06_2025\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{66B05471-AB8A-4784-9C1B-E35571C112FD}|Task1\\Task1.csproj|c:\\users\\admin\\desktop\\workspace\\splus-software\\task1-13_06_2025\\task1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{66B05471-AB8A-4784-9C1B-E35571C112FD}|Task1\\Task1.csproj|solutionrelative:task1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{66B05471-AB8A-4784-9C1B-E35571C112FD}|Task1\\Task1.csproj|c:\\users\\admin\\desktop\\workspace\\splus-software\\task1-13_06_2025\\task1\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66B05471-AB8A-4784-9C1B-E35571C112FD}|Task1\\Task1.csproj|solutionrelative:task1\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{66B05471-AB8A-4784-9C1B-E35571C112FD}|Task1\\Task1.csproj|c:\\users\\admin\\desktop\\workspace\\splus-software\\task1-13_06_2025\\task1\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{66B05471-AB8A-4784-9C1B-E35571C112FD}|Task1\\Task1.csproj|solutionrelative:task1\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66B05471-AB8A-4784-9C1B-E35571C112FD}|Task1\\Task1.csproj|c:\\users\\admin\\desktop\\workspace\\splus-software\\task1-13_06_2025\\task1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66B05471-AB8A-4784-9C1B-E35571C112FD}|Task1\\Task1.csproj|solutionrelative:task1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{66B05471-AB8A-4784-9C1B-E35571C112FD}|Task1\\Task1.csproj|c:\\users\\admin\\desktop\\workspace\\splus-software\\task1-13_06_2025\\task1\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{66B05471-AB8A-4784-9C1B-E35571C112FD}|Task1\\Task1.csproj|c:\\users\\admin\\desktop\\workspace\\splus-software\\task1-13_06_2025\\task1\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{66B05471-AB8A-4784-9C1B-E35571C112FD}|Task1\\Task1.csproj|solutionrelative:task1\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66B05471-AB8A-4784-9C1B-E35571C112FD}|Task1\\Task1.csproj|c:\\users\\admin\\desktop\\workspace\\splus-software\\task1-13_06_2025\\task1\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{66B05471-AB8A-4784-9C1B-E35571C112FD}|Task1\\Task1.csproj|solutionrelative:task1\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Workspace\\SPLUS-SOFTWARE\\Task1-13_06_2025\\Task1\\Views\\Users\\Edit.cshtml",
               "RelativeDocumentMoniker": "Task1\\Views\\Users\\Edit.cshtml",
@@ -47,7 +47,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Workspace\\SPLUS-SOFTWARE\\Task1-13_06_2025\\Task1\\Views\\Users\\Delete.cshtml",
               "RelativeDocumentMoniker": "Task1\\Views\\Users\\Delete.cshtml",
@@ -66,14 +66,14 @@
               "RelativeDocumentMoniker": "Task1\\Views\\Users\\Create.cshtml",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\Workspace\\SPLUS-SOFTWARE\\Task1-13_06_2025\\Task1\\Views\\Users\\Create.cshtml",
               "RelativeToolTip": "Task1\\Views\\Users\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-13T15:11:28.724Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Workspace\\SPLUS-SOFTWARE\\Task1-13_06_2025\\Task1\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Task1\\Views\\Shared\\_Layout.cshtml",
@@ -86,13 +86,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "index.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Workspace\\SPLUS-SOFTWARE\\Task1-13_06_2025\\Task1\\Views\\Users\\index.cshtml",
               "RelativeDocumentMoniker": "Task1\\Views\\Users\\index.cshtml",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\Workspace\\SPLUS-SOFTWARE\\Task1-13_06_2025\\Task1\\Views\\Users\\index.cshtml",
               "RelativeToolTip": "Task1\\Views\\Users\\index.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADUAAABdAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADUAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-13T13:58:47.591Z",
               "EditorCaption": ""
