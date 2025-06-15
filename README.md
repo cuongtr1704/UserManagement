@@ -1,4 +1,4 @@
-# Task1 - Task1 - User Management Web App (ASP.NET Core MVC + SQLite)
+# Task1 - User Management Web App (ASP.NET Core MVC + SQLite)
 
 A simple web application for **creating, viewing, editing, and deleting users**, built with ASP.NET Core MVC (.NET 8), Entity Framework Core, and SQLite.
 
