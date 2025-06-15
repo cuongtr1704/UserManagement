@@ -1,0 +1,61 @@
+﻿@model Task1.Models.User
+@{
+    ViewData["Title"] = "Add user";
+}
+
+<style>
+    .form-card {
+        max-width: 700px;
+        margin: 40px auto;
+        background-color: #1e1e1e;
+        color: #e0e0e0;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px #00000080;
+    }
+
+    label {
+        color: #ccc;
+    }
+
+    .btn {
+        min-width: 120px;
+    }
+</style>
+
+<div class="form-card">
+    <h3 class="mb-4 text-light">Add new user</h3>
+
+    <form asp-action="Create" method="post">
+        <div class="mb-3">
+            <label asp-for="FullName" class="form-label"></label>
+            <input asp-for="FullName" class="form-control bg-dark text-white border-secondary" />
+            <span asp-validation-for="FullName" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Email" class="form-label"></label>
+            <input asp-for="Email" class="form-control bg-dark text-white border-secondary" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="DateOfBirth" class="form-label"></label>
+            <input asp-for="DateOfBirth" type="date" class="form-control bg-dark text-white border-secondary" />
+            <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="PhoneNumber" class="form-label"></label>
+            <input asp-for="PhoneNumber" class="form-control bg-dark text-white border-secondary" />
+            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-success me-2">Save</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

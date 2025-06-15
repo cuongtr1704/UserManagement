@@ -1,0 +1,30 @@
+﻿@model Task1.Models.User
+@{
+    ViewData["Title"] = "Xoá người dùng";
+}
+
+<style>
+    .delete-box {
+        max-width: 600px;
+        margin: 60px auto;
+        background-color: #1c1c1c;
+        color: #dddddd;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px #00000080;
+    }
+</style>
+
+<div class="delete-box">
+    <h3 class="text-danger">⚠️ Confirm user deletion</h3>
+    <p><strong>Fullname:</strong> @Model.FullName</p>
+    <p><strong>Email:</strong> @Model.Email</p>
+    <p><strong>Date of birth:</strong> @Model.DateOfBirth.ToString("dd/MM/yyyy")</p>
+    <p><strong>Phone number:</strong> @Model.PhoneNumber</p>
+
+    <form asp-action="DeleteConfirmed" method="post">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger me-2">Delete</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>
