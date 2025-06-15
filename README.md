@@ -25,7 +25,7 @@ A simple web application for **creating, viewing, editing, and deleting users**,
 ### 1. Clone project
 
 ```bash
-git clone https://github.com/<your-username>/Task1.git
+git clone https://github.com/cuongtr1704/UserManagement.git
 cd Task1
 ```
 
